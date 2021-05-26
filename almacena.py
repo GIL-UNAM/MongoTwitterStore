@@ -61,7 +61,7 @@ class TwitterListener(StreamListener):
                 if tweet:
                     if tweet.place.country_code == 'MX':
                         print('({} {}) = '.format(time.strftime("%c"),self.k),tweet.id,end='')                        
-                        print("*",end = '');
+                        print("*",end = '')
                         try:
                             db.tweetsMexico.insert(tweet._json)
                             print(" inserted")
