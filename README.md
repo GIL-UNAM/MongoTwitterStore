@@ -1,5 +1,6 @@
 ## Descripción general
-Este es un programa que se encarga de recolectar de manera continua los twitts de una *región*y almacenarlos en un servidor Mongo (el servidor mongo empleado es 4.2.6). Por ejemplo, la *región* para México es: -117.61,14.34,-86.38,32.67.
+Este es un programa que se encarga de recolectar de manera continua los twitts de una *región*y almacenarlos en un servidor Mongo (el servidor mongo empleado es 4.2.6). Por ejemplo, la *región* para México es:
+* -117.61,14.34,-86.38,32.67.
 
 Es importante indicar que el programa para trabajar emplea el api de twitter, la cual está limitada a recuperar una cierta cantidad de twitts por día.
 
