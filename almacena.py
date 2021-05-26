@@ -102,8 +102,7 @@ print("ok")
 # Mexico: -117.61,14.34,-86.38,32.67
 
 while True:
-    try:
-                # https://boundingbox.klokantech.com/  format csv 
+    try: 
         if not streamStarted:
             print("arrancando un nuevo stream...")
             streamStarted = True
